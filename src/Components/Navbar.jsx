@@ -15,7 +15,7 @@ const Navbar = () => {
         className="lg:hidden text-2xl"
         onClick={toggleMenu}
       >
-        ☰
+        {isMenuOpen ? '×' : '☰'}
       </button>
       
       {/* Navigation Links */}

@@ -10,8 +10,6 @@ const Homepage = () => {
         <Navbar />
         <div className="p-4">
             <CategoryLookup />
-            <DisposalGuidelines />
-            <RecyclingTips />
         </div>
     </div>
   )
